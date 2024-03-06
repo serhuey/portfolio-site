@@ -8,6 +8,7 @@
     --clr-base-light-1: #E5EEF0;
     --clr-base-additional: #493471;
     --clr-bkg: #FEFBF6;
+    --clr-text-light: #FEFBF6;
     --clr-text: #151618;
     --clr-accent: #E68D39;
 }
@@ -82,7 +83,7 @@
 .button.contact:hover
 {
     background-color: var(--clr-accent);
-    color: #ffffff;
+    color: var(--clr-text-light);
 }
 
 
