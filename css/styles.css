@@ -85,7 +85,7 @@
 .button.contact
 {
     /*compensate for the increase in button size due to the border stroke*/
-    padding-left: calc(var(--padding-btn-left) - var(--border-btn-contact)); 
+    padding-left: calc(var(--padding-btn-left) - var(--border-btn-contact));
     padding-right: calc(var(--padding-btn-right) - var(--border-btn-contact));
     padding-top: calc(var(--padding-btn-top) - var(--border-btn-contact));
     padding-bottom: calc(var(--padding-btn-bottom) - var(--border-btn-contact));
@@ -101,6 +101,12 @@
 }
 
 
+/* Tags-----------------------------------------------------------------------------------------*/
+
+*
+{
+    box-sizing: border-box;
+}
 
 body
 {
@@ -110,6 +116,12 @@ body
     background-color: var(--clr-bkg);
     color: var(--clr-text);
 }
+
+/* header
+{
+    background-color: var(--clr-base-dark-1);
+    padding: 10px;
+} */
 
 b
 {
