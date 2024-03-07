@@ -11,6 +11,15 @@
     --clr-text-light: #FEFBF6;
     --clr-text: #151618;
     --clr-accent: #E68D39;
+
+    /* Paddings */
+    --padding-btn-left: 25px;
+    --padding-btn-right: 25px;
+    --padding-btn-top: 15px;
+    --padding-btn-bottom: 15px;
+
+    /* Borders */
+    --border-btn-contact: 2px;
 }
 
 /* Classes -------------------------------------------------------------------------------------*/
@@ -50,10 +59,10 @@
     color: var(--clr-bkg);
     font-weight: 400;
     text-decoration: none;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: var(--padding-btn-left);
+    padding-right: var(--padding-btn-right);
+    padding-top: var(--padding-btn-top);
+    padding-bottom: var(--padding-btn-bottom);
     border-radius: 15px;
     transition: 0.2s opacity;
 }
@@ -75,9 +84,14 @@
 
 .button.contact
 {
+    /*compensate for the increase in button size due to the border stroke*/
+    padding-left: calc(var(--padding-btn-left) - var(--border-btn-contact)); 
+    padding-right: calc(var(--padding-btn-right) - var(--border-btn-contact));
+    padding-top: calc(var(--padding-btn-top) - var(--border-btn-contact));
+    padding-bottom: calc(var(--padding-btn-bottom) - var(--border-btn-contact));
     background-color: transparent;
     color: var(--clr-accent);
-    border: 2px solid var(--clr-accent);
+    border: var(--border-btn-contact) solid var(--clr-accent);
 }
 
 .button.contact:hover
