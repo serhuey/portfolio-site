@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="128" cy="383" r="56" stroke="#404040" stroke-width="16"/>
+<circle cx="384" cy="128" r="56" stroke="#404040" stroke-width="16"/>
+<circle cx="384" cy="384" r="56" stroke="#404040" stroke-width="16"/>
+<circle cx="128" cy="128" r="56" stroke="#404040" stroke-width="16"/>
+<circle cx="128" cy="384" r="32" fill="#8DCBF7"/>
+<circle cx="384" cy="129" r="32" fill="#2D7BB3"/>
+<circle cx="384" cy="385" r="32" fill="#DEAF3F"/>
+<circle cx="128" cy="129" r="32" fill="#808080"/>
+<path d="M192 320L320 192M320 192V232M320 192H280" stroke="#404040" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="128" cy="208" r="8" fill="#404040"/>
+<circle cx="128" cy="240" r="8" fill="#404040"/>
+<circle cx="128" cy="272" r="8" fill="#404040"/>
+<circle cx="128" cy="304" r="8" fill="#404040"/>
+<circle cx="384" cy="208" r="8" fill="#404040"/>
+<circle cx="384" cy="240" r="8" fill="#404040"/>
+<circle cx="384" cy="272" r="8" fill="#404040"/>
+<circle cx="384" cy="304" r="8" fill="#404040"/>
+<circle cx="208" cy="128" r="8" transform="rotate(-90 208 128)" fill="#404040"/>
+<circle cx="240" cy="128" r="8" transform="rotate(-90 240 128)" fill="#404040"/>
+<circle cx="272" cy="128" r="8" transform="rotate(-90 272 128)" fill="#404040"/>
+<circle cx="304" cy="128" r="8" transform="rotate(-90 304 128)" fill="#404040"/>
+<circle cx="208" cy="383" r="8" transform="rotate(-90 208 383)" fill="#404040"/>
+<circle cx="240" cy="383" r="8" transform="rotate(-90 240 383)" fill="#404040"/>
+<circle cx="272" cy="383" r="8" transform="rotate(-90 272 383)" fill="#404040"/>
+<circle cx="304" cy="383" r="8" transform="rotate(-90 304 383)" fill="#404040"/>
+</svg>

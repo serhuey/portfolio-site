@@ -22,9 +22,187 @@
     --border-btn-contact: 2px;
 }
 
+
+/* HTML Tags-----------------------------------------------------------------------------------------*/
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: var(--clr-bkg);
+    color: var(--clr-text);
+}
+
+
+
+header
+{
+    position: fixed;
+    width: 100%;
+    background-color: var(--clr-base-dark-1);
+    text-align: center;
+    padding: 10px 0;
+}
+
+main
+{
+    padding-top: 128px;
+}
+
+b
+{
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+    line-height: 1.4;
+}
+
+h1
+{
+    font-size: 2.75em;
+    font-weight: 700;
+}
+
+h2
+{
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+h3
+{
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+h4
+{
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+#hero h1
+{
+    margin: 0;
+    padding: 0.67em 0;
+}
+
+#hero
+{
+    background-color: var(--clr-base-light-1);
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+img
+{
+    width: 100%;
+}
+
+
+nav
+{
+    display: inline-block;
+    width: 100%;
+}
+
+nav>ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav>ul>li
+{
+    display: inline-block;
+}
+
+nav>ul>li>a
+{
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: lowercase;
+    font-weight: 500;
+    color: var(--clr-base-light-1);
+}
+
+nav>ul>li>a:hover
+{
+    background-color: var(--clr-base-dark-2);
+}
+
+
 /* Classes -------------------------------------------------------------------------------------*/
 
 /* textlink */
+.css-box-shadow
+{
+    /*start ------------*/
+    width: [object Object]px;
+    height: [object Object]px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo
+{
+    max-height: 39px;
+}
+
+.icon-header
+{
+    vertical-align: middle;
+}
+
+.icon-header img
+{
+    display: inline-block;
+    max-height: 64px;
+    width: 64px;
+}
+
+.icon-header h3
+{
+    vertical-align: text-bottom;
+    display: inline-block;
+    margin: 0 0 13px 0;
+}
+
+
+.container
+{
+    padding: 0 15px;
+}
+
+.row
+{
+    margin: 25px 0;
+}
+
+#work .row
+{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1
+{
+    text-align: center;
+}
 
 .textlink
 {
@@ -98,69 +276,4 @@
 {
     background-color: var(--clr-accent);
     color: var(--clr-text-light);
-}
-
-
-/* Tags-----------------------------------------------------------------------------------------*/
-
-*
-{
-    box-sizing: border-box;
-}
-
-body
-{
-    font-family: 'Sarabun', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    background-color: var(--clr-bkg);
-    color: var(--clr-text);
-}
-
-/* header
-{
-    background-color: var(--clr-base-dark-1);
-    padding: 10px;
-} */
-
-b
-{
-    font-weight: 700;
-}
-
-h1,
-h2,
-h3,
-h4
-{
-    line-height: 1.4;
-}
-
-h1
-{
-    font-size: 2.75em;
-    font-weight: 700;
-}
-
-h2
-{
-    font-size: 2.25em;
-    font-weight: 700;
-}
-
-h3
-{
-    font-size: 1.75em;
-    font-weight: 400;
-}
-
-h4
-{
-    font-size: 1.35em;
-    font-weight: 400;
-}
-
-img
-{
-    width: 100%;
 }
